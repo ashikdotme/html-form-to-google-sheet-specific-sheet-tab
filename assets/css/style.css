@@ -1,0 +1,119 @@
+body{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.receive-form-area {
+  padding: 65px 0 110px 0;
+}
+
+.recevie {
+  max-width: 766px;
+  width: 100%;
+  margin: auto;
+}
+.recevie h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 33px;
+  color: #2B2B2B;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.single-input label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #344054;
+  width: 100%;
+  margin-bottom: 6px;
+  text-align: left;
+}
+.single-input input[type="text"], .single-input input[type="email"]{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344054;
+  width: 100%;
+  padding: 12px 16px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #D0D5DD;
+}
+.single-input {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.single-input input::placeholder {
+  color: #667085;;
+}
+.single-input select {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  margin-bottom: 15px;
+  outline: none;
+  box-shadow: none;
+  padding: 12px 16px;
+}
+.single-input .form-select:focus {
+  border-color: initial;
+  outline: 0;
+  box-shadow: initial;
+  border: 1px solid #D0D5DD;
+}
+
+
+
+.single-input button {
+  margin: auto;
+}
+.single-input [type="submit"] {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  background: linear-gradient(103.06deg, #FE6E30 1.76%, #F83F5C 96.49%);
+  border: 1px solid #F7816E;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #F4EBFF;
+  border-radius: 8px;
+  padding: 16px 55px;
+  display: block;
+  margin-bottom: 40px;
+}
+.single-input p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background: #31BC53;
+  border-radius: 5px;
+  padding: 15px 20px;
+  outline: none;
+  border: none;
+  display: inline-block;
+}
+.single-input p span img {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+.laptop-select,.mobile-select{
+  display: none;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to submit HTML forms to Google Sheets with any Specific Tab.</title> 
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- css file --> 
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="assets/css/style.css"> 
+</head>
+<body>
+ 
+<section class="receive-form-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="recevie">
+          <h2>HTML forms to Google Sheets with any Specific Tab</h2> 
+          <hr>
+         <form method="POST" name="HTML_FORM"> 
+            <div class="single-input">
+              <label for="name" class="form-label">Name*</label>
+              <input type="text" name="Name" id="name" class="form-control" placeholder="Name"> 
+            </div>
+            
+            <div class="single-input">
+              <label for="email">Email*</label>
+              <input type="email" name="Email" id="email" placeholder="you@company.com">
+            </div>
+
+            <div class="single-input">
+              <label for="select_device">Select Device</label>
+              <select class="form-select" name="Device" id="select_device">
+                <option selected value="">Select device</option>
+                <option value="laptop">Laptop</option>
+                <option value="mobile">Mobile</option>
+              </select>
+            </div>
+
+            <div class="laptop-select">
+              <div class="single-input">
+                <label for="laptop-model">1. Laptop Model?</label>
+                <input type="text" name="Laptop_Model" id="laptop-model" placeholder="Type your answer">
+              </div>
+              <div class="single-input">
+                <label for="laptop-version">2. Laptop Version?</label>
+                <input type="text" name="Laptop_Version" id="laptop-version" placeholder="Type your answer">
+              </div> 
+            </div>
+            <div class="mobile-select">
+              <div class="single-input">
+                <label for="mobile-model">1. Mobile Model?</label>
+                <input type="text" name="Mobile_Model" id="mobile-model" placeholder="Type your answer">
+              </div>
+              <div class="single-input">
+                <label for="mobile-version">2. Mobile Version?</label>
+                <input type="text" name="Mobile_Version" id="mobile-version" placeholder="Type your answer">
+              </div> 
+            </div>
+  
+            <div class="single-input">
+              <input type="submit" class="submit-btn" name="data_submit" value="Submit"> 
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- js file -->
+<script src="assets/js/jquery.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="assets/js/scripts.js"></script> 
+</body>
+</html>
